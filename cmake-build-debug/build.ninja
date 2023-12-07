@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/untitled1/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Administrator/Documents/GitHub/LearnC/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target untitled1
 
@@ -49,17 +49,53 @@ cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/untitled1/cmake-buil
 
 build cmake_object_order_depends_target_untitled1: phony || CMakeFiles/untitled1.dir
 
-build CMakeFiles/untitled1.dir/library.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/CLionProjects/untitled1/library.c || cmake_object_order_depends_target_untitled1
+build CMakeFiles/untitled1.dir/library.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/library.c || cmake_object_order_depends_target_untitled1
   DEP_FILE = CMakeFiles\untitled1.dir\library.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
-build CMakeFiles/untitled1.dir/Session_2/Ex1.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/CLionProjects/untitled1/Session$ 2/Ex1.c || cmake_object_order_depends_target_untitled1
+build CMakeFiles/untitled1.dir/Session_2/Ex1.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 2/Ex1.c || cmake_object_order_depends_target_untitled1
   DEP_FILE = CMakeFiles\untitled1.dir\Session_2\Ex1.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_2
+
+build CMakeFiles/untitled1.dir/Session_2/Ex2.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 2/Ex2.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_2\Ex2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_2
+
+build CMakeFiles/untitled1.dir/Session_4/Ex1.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 4/Ex1.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_4\Ex1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_4
+
+build CMakeFiles/untitled1.dir/Session_4/Ex2.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 4/Ex2.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_4\Ex2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_4
+
+build CMakeFiles/untitled1.dir/Session_4/Ex3.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 4/Ex3.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_4\Ex3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_4
+
+build CMakeFiles/untitled1.dir/Session_4/Ex4.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 4/Ex4.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_4\Ex4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_4
+
+build CMakeFiles/untitled1.dir/Session_4/Ex5.c.obj: C_COMPILER__untitled1_unscanned_Debug C$:/Users/Administrator/Documents/GitHub/LearnC/Session$ 4/Ex5.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Session_4\Ex5.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Session_4
 
 
 # =============================================================================
@@ -69,7 +105,7 @@ build CMakeFiles/untitled1.dir/Session_2/Ex1.c.obj: C_COMPILER__untitled1_unscan
 #############################################
 # Link the static library libuntitled1.a
 
-build libuntitled1.a: C_STATIC_LIBRARY_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/library.c.obj CMakeFiles/untitled1.dir/Session_2/Ex1.c.obj
+build libuntitled1.a: C_STATIC_LIBRARY_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/library.c.obj CMakeFiles/untitled1.dir/Session_2/Ex1.c.obj CMakeFiles/untitled1.dir/Session_2/Ex2.c.obj CMakeFiles/untitled1.dir/Session_4/Ex1.c.obj CMakeFiles/untitled1.dir/Session_4/Ex2.c.obj CMakeFiles/untitled1.dir/Session_4/Ex3.c.obj CMakeFiles/untitled1.dir/Session_4/Ex4.c.obj CMakeFiles/untitled1.dir/Session_4/Ex5.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\untitled1.dir
   POST_BUILD = cd .
@@ -82,7 +118,7 @@ build libuntitled1.a: C_STATIC_LIBRARY_LINKER__untitled1_Debug CMakeFiles/untitl
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\CLionProjects\untitled1\cmake-build-debug && "D:\Btran\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\Documents\GitHub\LearnC\cmake-build-debug && "C:\Users\Administrator\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -93,7 +129,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\CLionProjects\untitled1\cmake-build-debug && "D:\Btran\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Administrator\CLionProjects\untitled1 -BC:\Users\Administrator\CLionProjects\untitled1\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\Documents\GitHub\LearnC\cmake-build-debug && "C:\Users\Administrator\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Administrator\Documents\GitHub\LearnC -BC:\Users\Administrator\Documents\GitHub\LearnC\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +147,7 @@ build untitled1: phony libuntitled1.a
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Administrator/CLionProjects/untitled1/cmake-build-debug
+# Folder: C:/Users/Administrator/Documents/GitHub/LearnC/cmake-build-debug
 
 build all: phony libuntitled1.a
 
@@ -122,14 +158,14 @@ build all: phony libuntitled1.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Administrator/CLionProjects/untitled1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/Administrator/Documents/GitHub/LearnC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Administrator/CLionProjects/untitled1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Btran/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/Administrator/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/Administrator/Documents/GitHub/LearnC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
